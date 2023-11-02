@@ -12,7 +12,7 @@ These instructions will help you set up and run the API on your local machine.
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.5 or higher
 - Flask (Install with `pip install Flask`)
 
 ### Installation
@@ -34,7 +34,7 @@ These instructions will help you set up and run the API on your local machine.
 To run the API, use the following command:
 
 ```bash
-python3 -m app.py
+python3 -m app
 ```
 
 The API will start locally at `http://0.0.0.0:5000/`.
