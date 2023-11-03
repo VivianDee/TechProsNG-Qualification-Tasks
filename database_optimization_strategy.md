@@ -7,7 +7,7 @@ To optimize a database, I would first need to understand the database, which lea
 **Objective:** To gain a deep understanding of the current database structure.
 
 **Action:**
-- Check the database management tool used and familiarize yourself with it.
+- Check the database management tool used.
 - Review the database schema, taking note of how the data is organized and connected.
 - Check for tables, indexes, relationships, and stored procedures and how the data is structured within them.
 
@@ -19,7 +19,7 @@ To optimize a database, I would first need to understand the database, which lea
 
 **Action:**
 - Start with a performance check.
-- Analyze query execution time, using query analyzers, and take note of slow queries which can be optimized for better performance and efficient resource utilization. A database performance analyzer can be used here.
+- Analyze query execution time and take note of slow queries which can be optimized for better performance and efficient resource utilization. A database performance analyzer can be used here.
 - Test the database load under different scenarios and conditions using a load generator or stress tester. Check how the database works at peak load and normal load.   
 - Identify database dependencies which could be slowing down or causing latency in the database.
 
