@@ -47,8 +47,22 @@ The API will start locally at `http://0.0.0.0:5000/`.
 
 ## Example
 
-You can use a tool like [curl](https://curl.se/) to interact with the API. Here's an example of how to authenticate a user using curl:
+You can use a tool like curl to interact with the API. Here's an example of how to authenticate a user, how to enroll for Course A, and how to get a user's information with the user id.
+
+To authenticate a user:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"username": "user1", "password": "password1"}' http://0.0.0.0:5000/auth
+```
+
+To enroll for Course A:
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"course": "Course A"}' http://0.0.0.0:5000/enroll
+```
+
+To get a user's information with the user iD:
+
+```bash
+curl -X GET http://0.0.0.0:5000/user/1
 ```
